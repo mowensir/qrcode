@@ -1,0 +1,21 @@
+{
+    "name": "qrcode/phpqrcode",
+    "description": "Qrcode in PHP",
+    "type": "library",
+    "keywords": ["phpqrcode"],
+    "homepage": "http://phpqrcode.org/",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "http://phpqrcode.org/",
+            "email": "admin@phpqrcode.org",
+            "homepage": "http://phpqrcode.org/"
+        }
+    ],
+    "require": {
+        "php": ">=5.2"
+    },
+    "autoload": {
+        "files": ["phpqrcode/qrlib.php"]
+    }
+}
